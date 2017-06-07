@@ -19,7 +19,7 @@ function pause() {
   for (var i = 0; i < track.length; i++) {
     // track[i].currentTime = 0;
     track[i].pause();
-    // track[i].currentTime = track[0].currentTime;
+    track[i].currentTime = track[0].currentTime;
   }
 }
 
