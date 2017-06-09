@@ -11,8 +11,8 @@ for (var i = 0; i < numMod; i++) {
 
 function play() {
   for (var i = 0; i < track.length; i++) {
-    track[i].play();
     track[i].currentTime = track[0].currentTime;
+    track[i].play();
   }
 }
 
